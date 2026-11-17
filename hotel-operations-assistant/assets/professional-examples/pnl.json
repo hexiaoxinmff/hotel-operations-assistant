@@ -1,0 +1,29 @@
+{
+  "context": {
+    "property_id": "DEMO-HOTEL",
+    "currency": "CNY",
+    "tax_basis": "tax_exclusive",
+    "period_start": "2026-11-01",
+    "period_end": "2026-11-01",
+    "as_of": "2026-11-16",
+    "source": "虚构练习，非酒店数据",
+    "basis": "虚构部门直接成本表；未含租金、折旧、利息、所得税、管理费；不得称净利润/GOP"
+  },
+  "rows": [
+    {
+      "department": "客房",
+      "revenue": "30000.00",
+      "cost_of_sales": "2000.00",
+      "payroll": "8000.00",
+      "other_direct_cost": "3000.00"
+    },
+    {
+      "department": "餐饮",
+      "revenue": "10000.00",
+      "cost_of_sales": "3500.00",
+      "payroll": "3000.00",
+      "other_direct_cost": "1000.00"
+    }
+  ],
+  "undistributed_cost": "4000.00"
+}

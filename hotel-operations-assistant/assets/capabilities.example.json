@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "capabilities": [
+    {
+      "capability_id": "pms_read",
+      "provider": "待确认",
+      "mode": "read_only",
+      "status": "not_configured",
+      "checked_at": null,
+      "evidence": "尚无系统及权限资料",
+      "data_scope": "待确认",
+      "permissions": [],
+      "limitations": [
+        "不得声称已连接"
+      ]
+    },
+    {
+      "capability_id": "local_csv_import",
+      "provider": "professional_tools.import_csv",
+      "mode": "local_read",
+      "status": "declared_unverified",
+      "checked_at": null,
+      "evidence": "使用前按本机实际运行核查",
+      "data_scope": "用户选定文件",
+      "permissions": [
+        "local_file_read"
+      ],
+      "limitations": [
+        "仅UTF-8 CSV及显式映射"
+      ]
+    }
+  ]
+}

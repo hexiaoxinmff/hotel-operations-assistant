@@ -1,0 +1,27 @@
+{
+  "context": {
+    "property_id": "DEMO-HOTEL",
+    "currency": "CNY",
+    "tax_basis": "tax_exclusive",
+    "period_start": "2026-11-01",
+    "period_end": "2026-11-01",
+    "as_of": "2026-11-16",
+    "source": "虚构练习，非酒店数据",
+    "basis": "同店同币种；所有金额按已扣除税额的虚构口径；0为明确的示例零值"
+  },
+  "nights": [
+    {
+      "stay_date": "2026-11-01",
+      "remaining_rooms": 30,
+      "group_rooms": 20,
+      "additional_transient_demand": 25,
+      "group_rate": "300.00",
+      "transient_rate": "450.00",
+      "variable_cost_per_room": "60.00",
+      "group_commission_rate": "0.10",
+      "transient_commission_rate": "0.15",
+      "group_ancillary_contribution": "600.00",
+      "extra_group_cost": "100.00"
+    }
+  ]
+}

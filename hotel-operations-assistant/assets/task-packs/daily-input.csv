@@ -1,0 +1,5 @@
+property_id,business_date,currency,available_room_nights,sold_room_nights,room_revenue
+DEMO,2026-11-01,CNY,100,70,21000.00
+DEMO,2026-11-02,CNY,0,0,0.00
+DEMO,2026-11-03,CNY,100,60,18000.00
+DEMO,2026-11-03,CNY,100,60,18000.00

@@ -1,0 +1,54 @@
+{
+  "context": {
+    "property_id": "DEMO-HOTEL",
+    "currency": "CNY",
+    "tax_basis": "tax_exclusive",
+    "period_start": "2026-11-16",
+    "period_end": "2026-11-16",
+    "as_of": "2026-11-16",
+    "source": "虚构练习，非酒店数据",
+    "basis": "同店同币种；所有金额按已扣除税额的虚构口径；0为明确的示例零值"
+  },
+  "rows": [
+    {
+      "task_id": "T001",
+      "task_type": "退房清洁",
+      "location": "示例房001",
+      "events": [
+        {
+          "status": "assigned",
+          "actor": "虚构领班",
+          "evidence": "任务已分配",
+          "at": "2026-11-16T08:00:00+08:00"
+        },
+        {
+          "status": "in_progress",
+          "actor": "虚构员工",
+          "evidence": "开始清洁",
+          "at": "2026-11-16T09:00:00+08:00"
+        },
+        {
+          "status": "completed",
+          "actor": "虚构员工",
+          "evidence": "清扫记录D01",
+          "at": "2026-11-16T10:00:00+08:00"
+        },
+        {
+          "status": "inspected",
+          "actor": "虚构查房人",
+          "evidence": "检查表I01",
+          "at": "2026-11-16T11:00:00+08:00",
+          "inspection_result": "pass"
+        },
+        {
+          "status": "closed",
+          "actor": "虚构领班",
+          "evidence": "交接表H01",
+          "at": "2026-11-16T12:00:00+08:00",
+          "confirmation_quote": "虚构确认：交接完成",
+          "message_ref": "fictional-only-02"
+        }
+      ]
+    }
+  ]
+}

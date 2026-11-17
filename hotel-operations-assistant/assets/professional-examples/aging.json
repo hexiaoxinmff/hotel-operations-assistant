@@ -1,0 +1,38 @@
+{
+  "context": {
+    "property_id": "DEMO-HOTEL",
+    "currency": "CNY",
+    "tax_basis": "tax_exclusive",
+    "period_start": "2026-11-01",
+    "period_end": "2026-11-01",
+    "as_of": "2026-11-16",
+    "source": "虚构练习，非酒店数据",
+    "basis": "同店同币种；所有金额按已扣除税额的虚构口径；0为明确的示例零值"
+  },
+  "rows": [
+    {
+      "invoice_id": "0001",
+      "invoice_date": "2026-10-01",
+      "due_date": "2026-11-16",
+      "original_amount": "1000.00",
+      "credits": "100.00",
+      "paid": "200.00"
+    },
+    {
+      "invoice_id": "0002",
+      "invoice_date": "2026-10-01",
+      "due_date": "2026-10-16",
+      "original_amount": "500.00",
+      "credits": "0.00",
+      "paid": "0.00"
+    },
+    {
+      "invoice_id": "0003",
+      "invoice_date": "2026-10-01",
+      "due_date": "2026-10-20",
+      "original_amount": "100.00",
+      "credits": "0.00",
+      "paid": "120.00"
+    }
+  ]
+}

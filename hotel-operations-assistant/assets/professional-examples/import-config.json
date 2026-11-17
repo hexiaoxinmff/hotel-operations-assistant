@@ -1,0 +1,29 @@
+{
+  "context": {
+    "property_id": "DEMO-HOTEL",
+    "currency": "CNY",
+    "tax_basis": "tax_exclusive",
+    "period_start": "2026-11-01",
+    "period_end": "2026-11-01",
+    "as_of": "2026-11-16",
+    "source": "虚构练习，非酒店数据",
+    "basis": "同店同币种；所有金额按已扣除税额的虚构口径；0为明确的示例零值"
+  },
+  "mapping": {
+    "reservation_id": "订单号",
+    "business_date": "营业日",
+    "room_revenue": "房费",
+    "room_nights": "房晚"
+  },
+  "schema": {
+    "reservation_id": "text",
+    "business_date": "date",
+    "room_revenue": "money",
+    "room_nights": "integer"
+  },
+  "unique_keys": [
+    "reservation_id",
+    "business_date"
+  ],
+  "encoding": "utf-8-sig"
+}

@@ -1,0 +1,35 @@
+{
+  "on": "2026-11-16",
+  "claims": [
+    {
+      "claim_id": "F001",
+      "scope": "DEMO-HOTEL",
+      "key": "rooms_count",
+      "value": null,
+      "unit": "待确认",
+      "owner": "待确认",
+      "status": "unknown",
+      "sources": []
+    },
+    {
+      "claim_id": "F002",
+      "scope": "DEMO-HOTEL",
+      "key": "approved_rate",
+      "value": null,
+      "unit": "待确认",
+      "owner": "待确认",
+      "status": "unknown",
+      "sources": []
+    },
+    {
+      "claim_id": "F003",
+      "scope": "DEMO-HOTEL",
+      "key": "opening_date",
+      "value": null,
+      "unit": "待确认",
+      "owner": "待确认",
+      "status": "unknown",
+      "sources": []
+    }
+  ]
+}

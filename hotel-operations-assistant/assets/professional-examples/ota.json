@@ -1,0 +1,42 @@
+{
+  "context": {
+    "property_id": "DEMO-HOTEL",
+    "currency": "CNY",
+    "tax_basis": "tax_exclusive",
+    "period_start": "2026-11-01",
+    "period_end": "2026-11-01",
+    "as_of": "2026-11-16",
+    "source": "虚构练习，非酒店数据",
+    "basis": "同店同币种；所有金额按已扣除税额的虚构口径；0为明确的示例零值"
+  },
+  "expected": [
+    {
+      "channel": "OTA-A",
+      "reservation_id": "001",
+      "settlement_id": "S01",
+      "gross": "1000.00",
+      "refunds": "100.00",
+      "commission": "135.00",
+      "fees": "5.00",
+      "due_date": "2026-11-10"
+    },
+    {
+      "channel": "OTA-A",
+      "reservation_id": "002",
+      "settlement_id": "S02",
+      "gross": "500.00",
+      "refunds": "0.00",
+      "commission": "75.00",
+      "fees": "0.00",
+      "due_date": "2026-11-20"
+    }
+  ],
+  "actual": [
+    {
+      "channel": "OTA-A",
+      "reservation_id": "001",
+      "settlement_id": "S01",
+      "net_paid": "750.00"
+    }
+  ]
+}

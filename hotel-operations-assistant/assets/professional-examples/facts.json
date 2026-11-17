@@ -1,0 +1,53 @@
+{
+  "on": "2026-11-16",
+  "claims": [
+    {
+      "claim_id": "F01",
+      "scope": "DEMO-HOTEL",
+      "key": "rooms_count",
+      "value": null,
+      "unit": "待确认",
+      "owner": "待确认",
+      "status": "unknown",
+      "sources": []
+    },
+    {
+      "claim_id": "F02",
+      "scope": "DEMO-HOTEL",
+      "key": "report_price_proposal",
+      "value": "300–340",
+      "unit": "CNY/房晚",
+      "owner": "待确认",
+      "status": "assumption",
+      "sources": [
+        {
+          "source": "虚构报告A",
+          "locator": "第2段",
+          "observed_on": "2026-11-16",
+          "evidence": "示例测算建议，不是批准价格"
+        }
+      ]
+    },
+    {
+      "claim_id": "F03",
+      "scope": "DEMO-HOTEL",
+      "key": "report_currency",
+      "value": "CNY",
+      "unit": "币种",
+      "owner": "虚构负责人",
+      "status": "user_confirmed",
+      "confirmation_quote": "虚构测试原话：练习表用人民币",
+      "message_ref": "fictional-only-01",
+      "valid_from": "2026-11-01",
+      "valid_until": "2026-11-30",
+      "sources": [
+        {
+          "source": "虚构确认记录",
+          "locator": "fictional-only-01",
+          "observed_on": "2026-11-16",
+          "evidence": "仅供测试"
+        }
+      ]
+    }
+  ]
+}

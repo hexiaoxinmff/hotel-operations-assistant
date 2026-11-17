@@ -1,0 +1,36 @@
+{
+  "context": {
+    "property_id": "DEMO-HOTEL",
+    "currency": "CNY",
+    "tax_basis": "tax_exclusive",
+    "period_start": "2026-11-01",
+    "period_end": "2026-11-01",
+    "as_of": "2026-11-16",
+    "source": "虚构练习，非酒店数据",
+    "basis": "同店同币种；所有金额按已扣除税额的虚构口径；0为明确的示例零值"
+  },
+  "rows": [
+    {
+      "channel": "示例OTA",
+      "room_nights": 10,
+      "gross_room_revenue": "4000.00",
+      "refunds": "200.00",
+      "commission": "570.00",
+      "payment_fee": "20.00",
+      "marketing_cost": "100.00",
+      "variable_room_cost": "500.00",
+      "ancillary_contribution": "80.00"
+    },
+    {
+      "channel": "示例直销",
+      "room_nights": 8,
+      "gross_room_revenue": "3200.00",
+      "refunds": "0.00",
+      "commission": "0.00",
+      "payment_fee": "16.00",
+      "marketing_cost": "160.00",
+      "variable_room_cost": "400.00",
+      "ancillary_contribution": "40.00"
+    }
+  ]
+}

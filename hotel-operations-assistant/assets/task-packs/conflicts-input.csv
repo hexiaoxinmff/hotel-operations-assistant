@@ -1,0 +1,6 @@
+claim_id,source,locator,type,object,value,unit,evidence
+C01,虚构报告A,第2段,proposal,建议房价,300–340,CNY/房晚,定价建议
+C02,虚构报告B,第3段,proposal,建议房价,420–460,CNY/房晚,定价建议
+C03,虚构报告A,第4段,statistic,样本最高价,494,CNY,引用底稿
+C04,虚构底稿,第1记录,observation,观测价,312,CNY,原始虚构值
+C05,虚构底稿,第2记录,observation,观测价,423,CNY,原始虚构值

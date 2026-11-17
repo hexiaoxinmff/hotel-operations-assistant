@@ -1,0 +1,21 @@
+{
+  "repository": "https://github.com/vercel-labs/skills",
+  "commit": "af860243b8c68053b3b5151e3732b9322933674d",
+  "license": "MIT",
+  "fetched_date": "2026-11-16",
+  "files": [
+    {
+      "path": "skills/find-skills/SKILL.md",
+      "blob_sha": "a41bdd074bb587afd861332cf2f473f3154de4d7"
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha": "eabe3008f6c0275929faa8b07d406e82717648cc"
+    },
+    {
+      "path": "src/find.ts",
+      "blob_sha": "182badb388b169ccafa8a7aa359d522d48fc9153"
+    }
+  ],
+  "note": "Vendored as upstream reference; not auto-executed; hotel adapter uses public search endpoint without running npm installer."
+}

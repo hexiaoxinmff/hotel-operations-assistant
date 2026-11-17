@@ -1,0 +1,12 @@
+{
+  "sheet": "Sheet1",
+  "date_column": "A",
+  "date_mode": "excel",
+  "start_row": 3,
+  "end_row": 4,
+  "currency": "",
+  "platform": "",
+  "stay_date": "",
+  "rate_conditions": "",
+  "groups": [{"hotel": "虚构酒店A", "room_type": "", "observations": [{"column": "B", "time": "16:00"}, {"column": "C", "time": "21:00"}]}]
+}

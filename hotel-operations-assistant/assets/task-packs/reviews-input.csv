@@ -1,0 +1,6 @@
+image_id,review_id,kind,platform,source,locator,text,rating,rating_scale,status
+I01,R01,review,虚构平台,虚构评价底稿,第1条,房间不脏但空调太吵,,,文字样例
+I02,R02,review,虚构平台,虚构评价底稿,第2条,空调响,,,文字样例
+I03,R03,review,虚构平台,虚构评价底稿,第3条,前台办理慢,,,文字样例
+I04,R01,review_duplicate,虚构平台,虚构评价底稿,第1条续图,房间不脏但空调太吵,,,重复
+I05,,rating_panel,虚构平台,虚构评分底稿,总面板,,4.8,5,文字样例

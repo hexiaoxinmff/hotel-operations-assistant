@@ -1,0 +1,4 @@
+interface:
+  display_name: "酒店运营助手"
+  short_description: "协助酒店筹开调研、经营报表、收益分析及各部门日常运营，保留数据来源和核对口径"
+  default_prompt: "使用 $hotel-operations-assistant，先用大白话理解我的酒店工作需求，整理给我确认，再提供方案让我选，选定后执行。"
